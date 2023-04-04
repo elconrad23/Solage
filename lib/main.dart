@@ -1,3 +1,4 @@
+import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:firebase_database/firebase_database.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -7,7 +8,6 @@ import 'package:solage/screens/settingsPage.dart';
 Future main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
-
   runApp(MyApp());
 }
 
@@ -35,6 +35,12 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   int _selectedIndex = 0;
+ @override
+  void initState() {
+    super.initState();
+    Timer(Duration(seconds: 3),
+          ()=>Navigator.pushReplacement(context,MaterialPageRoute(builder:(context) => HomeScreen())));
+  }
 
   static List<Widget> _widgetOptions = <Widget>[
     HomeScreen(),
