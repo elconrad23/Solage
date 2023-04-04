@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "590206642186",
+    "firebase_url": "https://solage-f2a46-default-rtdb.firebaseio.com",
+    "project_id": "solage-f2a46",
+    "storage_bucket": "solage-f2a46.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:590206642186:android:e7b0639de13c658c6597f3",
+        "android_client_info": {
+          "package_name": "com.example.solage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "590206642186-t2d14j56cjhqatejd41pps3a76j4tbn0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNMBKRkLRWuOtO7ESR5L1uK0WBsQVxXRo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "590206642186-t2d14j56cjhqatejd41pps3a76j4tbn0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
