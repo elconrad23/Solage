@@ -44,7 +44,7 @@ class _HomeScreenState extends State<HomeScreen> {
               title: Text('Power level left:'),
               trailing: Text(currentLevel)),
           ListTile(
-              leading: Icon(Icons.power),
+              leading: Icon(Icons.timelapse),
               title: Text('Time left:'),
               trailing: Text(timeLeft)),
         ],
